@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# 环境 / 密钥（切勿提交）
+.env
+.env.*
+
+# 数据库 / 生成物
+*.log
+*.sqlite3
+
+# 操作系统 / 编辑器
+.DS_Store
+.idea/
+.vscode/
